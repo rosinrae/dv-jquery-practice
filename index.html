@@ -3,8 +3,8 @@
   <head>
     <title></title>
     <meta charset="utf-8">
-    <link rel="styles.css">
     <link rel="reset.css">
+    <link rel="styles.css">
   </head>
   <body>
     <div id="options">
@@ -17,15 +17,22 @@
         <option value="yearly">Yearly</option>
       </select>
       <button id="add">Add to cart</button>
+      <button id="display-cart">Hide Cart</button>
     </div>
 
     <div id="cart">
       <h1>Cart</h1>
       <hr>
       <ul id="in-cart"></ul>
+      <h2 id="total">$0</h2>
+      <div id="complete"></div>
+      <button id="purchase">Purchase</button>
+      <button id="clear-cart">Clear cart</button>
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="main.js"></script>
   </body>
 </html>
+
+

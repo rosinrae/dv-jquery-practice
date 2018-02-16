@@ -13,3 +13,7 @@
 #cart {
   margin-left: 51%;
 }
+
+#clear-cart {
+  display: none;
+}
